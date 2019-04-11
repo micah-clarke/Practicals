@@ -8,7 +8,7 @@ for word in words:
     word_to_be_counted[word] = frequency + 1
 
 
-words = list(word_to_be_counted.keys())
+words = list(word_to_be_counted)
 words.sort()
 
 max_length = max((len(word) for word in words))

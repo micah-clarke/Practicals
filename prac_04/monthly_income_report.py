@@ -1,4 +1,5 @@
 
+
 def monthly_income_report():
     incomes = []
     number_of_months = int(input("How many months? "))

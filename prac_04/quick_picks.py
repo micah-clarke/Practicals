@@ -6,6 +6,7 @@ numbers_per_line = 6
 minimum_number = 1
 maximum_number = 45
 
+
 def main():
     number_of_picks = int(input("How many quick picks do you want? "))
     while number_of_picks < 0:
